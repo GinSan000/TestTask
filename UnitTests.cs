@@ -23,10 +23,10 @@ namespace SquareTests
         }
     }
     [TestClass]
-    public class TriangleClass
+    public class TriangleTests
     {
         [TestMethod]
-        public void Triangle_5_4_3()
+        public void Triangle_5_4_3_return_6()
         {
             Triangle triangle = new Triangle("Ňđĺóăîëüíčę", 5, 4, 3);
             double expectedResult = 6;
@@ -34,7 +34,7 @@ namespace SquareTests
             Assert.AreEqual(expectedResult, actualResult);
         }
         [TestMethod]
-        public void Triangle_11_10_3()
+        public void Triangle_11_10_3_return_14_70()
         {
             Triangle triangle = new Triangle("Ňđĺóăîëüíčę", 11, 10, 3);
             double expectedResult = 14.70;
@@ -42,7 +42,7 @@ namespace SquareTests
             Assert.AreEqual(expectedResult, actualResult);
         }
         [TestMethod]
-        public void Triangle_10_10_10()
+        public void Triangle_10_10_10_return_43_30()
         {
             Triangle triangle = new Triangle("Ňđĺóăîëüíčę", 10, 10, 10);
             double expectedResult = 43.30;
@@ -50,7 +50,7 @@ namespace SquareTests
             Assert.AreEqual(expectedResult, actualResult);
         }
         [TestMethod]
-        public void Triangle_2_6_9_IsTriangle()
+        public void Triangle_2_6_9_IsTriangle_return_true()
         {
             Triangle triangle = new Triangle("Ňđĺóăîëüíčę", 5, 6, 9);
             Assert.IsFalse(triangle.IsRightTriangle());
