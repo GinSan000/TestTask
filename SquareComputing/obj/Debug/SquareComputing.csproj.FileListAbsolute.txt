@@ -1,0 +1,6 @@
+C:\Users\Max\source\repos\SquareComputing\obj\Debug\SquareComputing.csproj.AssemblyReference.cache
+C:\Users\Max\source\repos\SquareComputing\obj\Debug\SquareComputing.csproj.CoreCompileInputs.cache
+C:\Users\Max\source\repos\SquareComputing\bin\Debug\SquareComputing.dll
+C:\Users\Max\source\repos\SquareComputing\bin\Debug\SquareComputing.pdb
+C:\Users\Max\source\repos\SquareComputing\obj\Debug\SquareComputing.dll
+C:\Users\Max\source\repos\SquareComputing\obj\Debug\SquareComputing.pdb
